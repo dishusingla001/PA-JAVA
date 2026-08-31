@@ -41,14 +41,14 @@ public class Main{
     // }
 
     // read file with buffered reader
-    try (BufferedReader br = new BufferedReader(new FileReader("abc.txt"))) {
-      String line;
-      while ((line = br.readLine()) != null) {
-        System.out.println(line);
-      }
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
+    // try (BufferedReader br = new BufferedReader(new FileReader("abc.txt"))) {
+    //   String line;
+    //   while ((line = br.readLine()) != null) {
+    //     System.out.println(line);
+    //   }
+    // } catch (IOException e) {
+    //   e.printStackTrace();
+    // }
   }
 
 }
